@@ -1,0 +1,14 @@
+# Arquivos de checkpoints e temporários do Colab/Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+__pycache__/
+*.pyc
+
+# Dados brutos pesados (ficam no Google Drive conforme Lab 3)
+data/raw/*.csv
+*.zip
+
+# Ambientes locais se houver
+.venv/
+env/
+.env
