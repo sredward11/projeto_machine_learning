@@ -16,7 +16,7 @@ O projeto utiliza a base pública consolidada de **Ocorrências de Acidentes de 
   * `03_modelos_supervisionados_e_avaliacao.ipynb`: Modelos supervisionados, validação cruzada e recomendação de produção.
 
 ### 3. Como Reproduzir no Google Colab
-1. Certifique-se de que o arquivo `datatran2025.csv` está salvo na sua pasta do Google Drive em `MyDrive/ADS033/`.
+1. Certifique-se de que o arquivo `datatran2025.csv` está salvo na sua pasta do Google Drive em `MyDrive/base_compartilhada/`.
 2. Abra os notebooks na ordem numérica indicada dentro do Google Colab.
 3. Conecte seu Drive na Etapa 1 de cada notebook (`drive.mount('/content/drive')`).
 4. Execute `Ambiente de Execução → Reiniciar sessão e executar tudo`. Todos os notebooks utilizam sementes aleatórias fixadas (`random_state=42`).
