@@ -1,24 +1,59 @@
-# Declaração Formal de Autores e Frentes Técnicas
+# Declaração de Autores e Frentes Técnicas
 
-Disciplina: Aprendizagem de Máquina (ADS033) — 2026/2  
-Professor: Rodrigo Gonçalves  
-Curso: Tecnologia em Análise e Desenvolvimento de Sistemas — IESB Asa Sul  
-Turma: ADSDM2C  
+**Disciplina:** Aprendizagem de Máquina — ADS033 — 2026/2  
+**Professor:** Rodrigo Gonçalves  
+**Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas — IESB Asa Sul  
+**Turma:** ADSDM2C
 
----
+## Integrante 1: Ana Clara
 
-### Integrante 1: Ana Clara
-* **Frente Técnica:** Responsável pelos Dados, Análise Exploratória e Protocolo Experimental (Marco 1).
-* **Atribuições:** Obtenção e documentação dos metadados, auditoria de inconsistências, análise de medidas de posição e dispersão via Plotly, tratamento de dados ausentes e execução do modelo de referência (Baseline).
+**Frente técnica:** Dados, Análise Exploratória e Protocolo Experimental — Marco 1.
 
----
+**Atribuições:**
 
-### Integrante 2: Nathalya
-* **Frente Técnica:** Responsável pela Aprendizagem Não Supervisionada e Modelos Interpretáveis (Marco 2).
-* **Atribuições:** Modelagem de agrupamento com k-means (justificativa de k pelo método do cotovelo e silhueta), caracterização de clusters no domínio rodoviário, treinamento de Árvore de Decisão e extração de regras lógicas explicáveis.
+- Obtenção e documentação dos metadados.
+- Auditoria de inconsistências.
+- Análise de medidas de posição e dispersão via Plotly.
+- Tratamento de dados ausentes.
+- Execução do modelo de referência.
 
----
+O Marco 1 permanece preservado como foi entregue.
 
-### Integrante 3: Carlos Eduardo Mendonça
-* **Frente Técnica:** Responsável pelos Modelos Probabilísticos, Neurais e Avaliação Comparativa (Marco 2) e Governança do Repositório.
-* **Atribuições:** Implementação de k-NN e Naive Bayes (hipótese de independência), modelagem da Rede Neural Multicamada (MLP) com curvas de perda/acurácia, execução do Stratified k-fold Cross-Validation em todos os modelos e recomendação técnica final.
+## Integrante 2: Nathalya
+
+**Frente técnica inicialmente atribuída:** Aprendizagem Não Supervisionada e Modelos Interpretáveis — Marco 2.
+
+A organização inicial previa sua participação na frente de agrupamento e interpretação de modelos. Durante o desenvolvimento, a responsabilidade pela conclusão e consolidação dessa etapa foi transferida para Carlos Eduardo Mendonça.
+
+A atribuição inicial não representa uma declaração de implementação de métodos que não integram a entrega final.
+
+## Integrante 3: Carlos Eduardo Mendonça
+
+**Frente técnica:** Consolidação do Marco 2, modelagem, avaliação comparativa e governança do repositório.
+
+**Atribuições:**
+
+- Conclusão e consolidação da análise de agrupamento.
+- Comparação de Single, Complete, Average, Centroid e Ward.
+- Aplicação e interpretação de K-means e DBSCAN.
+- Regressão linear simples, diagnóstico de resíduos e análise de sensibilidade.
+- Regressão logística binária e interpretação das razões de chances.
+- Implementação e avaliação de k-NN.
+- Validação cruzada estratificada.
+- Seleção de limiares no treino.
+- Comparação com referências.
+- Análise das limitações e consequências potenciais dos erros.
+- Consolidação dos notebooks e da documentação.
+- Organização do repositório.
+
+## Escopo final
+
+A entrega do Marco 2 reúne:
+
+- Agrupamento hierárquico.
+- K-means.
+- DBSCAN.
+- Regressão linear simples.
+- Regressão logística binária.
+- k-NN.
+
